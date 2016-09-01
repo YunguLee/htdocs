@@ -1,6 +1,6 @@
 <?php
-    phpinfo();
-?>
+    /*phpinfo();
+*/?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +13,18 @@
    <?php
         print "SSDD";
     ?>
-   <li>3</li>
+   <li>3rd example
+   <?php
+        print PHP_VERSION."<br>";
+        print PHP_OS."<br>";
+        define("HELLO","HI");
+        print HELLO."<br>";
+        define("_18","신발");         
+
+        print _18;
+        print __DIR__;
+       ?>
+       </li>
    <li>4</li>
 </body>
 </html>
