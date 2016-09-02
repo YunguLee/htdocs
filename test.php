@@ -66,5 +66,15 @@
     echo "<hr>";
        }
     ?>
+    </p>
+    <?php
+        $a=array("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun");
+        foreach($a as $key){
+            print $key;
+            print "<br>";
+        }
+    ?>
+    
+    
 </body>
 </html>
