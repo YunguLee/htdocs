@@ -8,7 +8,7 @@
     $_SESSION["count"]=$count;
     ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kor">
 <head>
     <meta charset="UTF-8">
     <title></title>
