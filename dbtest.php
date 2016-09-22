@@ -19,7 +19,7 @@
     $mysqli->close;*/
     $pdo=new PDO('mysql:host=127.0.0.1;dbname=php;charset=utf8','root','')
     print 'Connect is Success';
-    $pdo=null;
+
     ?>
 </body>
 </html>
